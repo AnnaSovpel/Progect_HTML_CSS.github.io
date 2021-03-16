@@ -1,0 +1,89 @@
+/* CSS Document */
+@font-face {
+    font-family: Roboto; 
+    src: url(./ttf/Roboto-Regular.ttf);
+}
+.body{
+    font-family: Roboto; 
+    background-color: #f8f8f8;
+}
+.main-word-lips {
+    font-size: 25px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #bc91a9;
+}
+.main-done-lips {
+    border: 1px solid #bc91a9;
+    width: 220px;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.main-hide-lips{
+    text-align: center; 
+    border: 1px solid #bc91a9;
+    color: black;
+    width: 70px; border-radius: 4px;
+    box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.grid-image-lips {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    width: 230px;
+    height: 270px;
+}
+.grid-image-lips-2 {
+    position: absolute;
+    right: 0;
+    transition: 2s;
+}
+.grid-image-lips-2:hover {
+    opacity: 0;
+}
+.grid-lips-flex-name {
+    color: #bc91a9;
+    font-weight: bold;
+    padding-right: 10px;
+}
+input {
+    position: absolute;
+    display: none;
+}
+label {
+    position: relative;
+    cursor: pointer;
+}
+[id$="lips"]:checked ~ div > [for="lips"] {
+    color: #bc91a9;
+}
+[id$="lips-1"]:checked ~ div > [for="lips-1"] {
+    color: #bc91a9;
+}
+[id$="lips-2"]:checked ~ div > [for="lips-2"] {
+    color: #bc91a9;
+}
+[id$="lips-3"]:checked ~ div > [for="lips-3"] {
+    color: #bc91a9;
+}
+[id$="lips-4"]:checked ~ div > [for="lips-4"] {
+    color: #bc91a9;
+}
+[id$="lips-5"]:checked ~ div > [for="lips-5"] {
+    color: #bc91a9;
+}
+[id$="lips-6"]:checked ~ div > [for="lips-6"] {
+    color: #bc91a9;
+}

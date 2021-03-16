@@ -1,0 +1,103 @@
+/* CSS Document */
+@font-face {
+    font-family: Roboto; 
+    src: url(./ttf/Roboto-Regular.ttf);
+}
+.body{
+    font-family: Roboto; 
+    background-color: #f8f8f8;
+}
+
+.main {
+    padding-top: 80px;
+}
+.main-grain {
+    padding: 5px;
+}
+.main-word-eye {
+    font-size: 25px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4f4743;
+}
+.main-done-eye {
+    border: 1px solid #4f4743;
+    width: 220px;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.main-hide-eye {
+    text-align: center; 
+    border: 1px solid #4f4743;
+    color: black;
+    width: 70px; border-radius: 4px;
+    box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow:-2px 2px 3px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.grid-image-eye { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    width: 230px;
+    height: 270px;
+  }
+.grid-image-eye-2 {
+    position: absolute;
+    right: 0;
+    transition: 2s;
+}
+.grid-image-eye-2:hover {
+    opacity: 0;
+}
+.grid-product-eye-flex-name{
+    color: #6a5e58;
+    font-weight: bold;
+    padding-right: 10px;
+}
+input {
+    position: absolute;
+    display: none;
+}
+label {
+    position: relative;
+    cursor: pointer;
+}
+.grid-product-eye-price {
+    padding-top: 10px;
+    text-decoration: underline #4f4743;
+}
+[id$="eye"]:checked ~ div > [for="eye"] {
+    color: #4f4743;
+}
+[id$="eye-2"]:checked ~ div > [for="eye-2"] {
+    color: #4f4743;
+}
+[id$="eye-3"]:checked ~ div > [for="eye-3"] {
+    color: #4f4743;
+}
+[id$="eye-4"]:checked ~ div > [for="eye-4"] {
+    color: #4f4743;
+}
+[id$="eye-5"]:checked ~ div > [for="eye-5"] {
+    color: #4f4743;
+}
+[id$="eye-6"]:checked ~ div > [for="eye-6"] {
+    color: #4f4743;
+}
+[id$="eye-7"]:checked ~ div > [for="eye-7"] {
+    color: #4f4743;
+}
+[id$="eye-8"]:checked ~ div > [for="eye-8"] {
+    color: #4f4743;
+}

@@ -1,0 +1,157 @@
+/* CSS Document */
+@font-face {
+    font-family: Roboto; 
+    src: url(./ttf/Roboto-Regular.ttf);
+}
+.body{
+    font-family: Roboto; 
+    background-color: #f8f8f8;
+}
+.main {
+    padding-top: 80px;
+}
+.main-image {
+    background-image: url(./about/kylie-about.jpg); 
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-image-adaptiv {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+.main-block-1 {
+    font-size: 30px; 
+    width: 300px; 
+    padding-left: 15px;    
+    color: rgb(53, 53, 53);
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.main-text_container-1 {
+    width: 50%; 
+    padding-top: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.main-text_container-2 {
+    width: 50%; 
+    padding-top: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.footer-flex__bold {
+    font-weight: bold;
+}
+
+.footer-message-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-message {
+    width: 40%;
+    border: inset;
+}
+
+.footer-submit {
+    border: 2px solid rgba(89, 87, 87, 0.775);
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-submit:hover {
+    background-color: #f7afb67b;
+}
+
+                    /* ADAPTIV */
+
+@media (max-width: 1024px) {
+    .header{
+        height: 50px;
+        font-size: 20px;
+    }
+    .main{
+        padding-top: 0px;
+    }   
+    .main-block-1 {
+        color: blanchedalmond;
+    }
+    .header-picture{
+        height: 40px;
+    }
+    .main {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 970px) {
+    .main-image{
+        display: none;
+}
+}
+@media (max-width: 970px) {
+    .main-image-adaptiv{
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    .footer-flex{
+        font-size: 22px;
+}
+}
+@media (max-width: 450px) {
+    .main-text{
+        flex-direction: unset;
+        align-items: unset;
+}
+}
+@media (max-width: 450px) {
+    .main-text_container-1{
+        width: 60%;
+     
+}
+}
+@media (max-width: 450px) {
+    .main-text_container-2{
+        width: 40%;
+        text-align: justify;
+        margin-left: 15px;
+
+}
+}
+@media (max-width: 450px) {
+    .main{
+        padding: 10px;
+        text-align: justify;
+}
+}
+@media (max-width: 450px) {
+    .footer-message{
+        width: 60%;
+}
+}
+
+@media (max-width: 900px) {
+    .main{
+        padding-top: 0px;
+}
+}

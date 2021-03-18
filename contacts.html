@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" type="text/css">
+    <link rel="stylesheet" href="about.css" type="text/css">
+    <link rel="stylesheet" href="contacts.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="body">
+    <button onclick="topFunction()" id="button-top" title="Top"> &#8963; </button>
+    <header class="header header-word">
+     
+      <img src="./pictures/logo.png" alt="No image" class="header-picture">
+  
+      <div class="header-nav">
+        <a href="project.html" class="header-word__nav">Home</a>
+      </div>
+      <div class="header-nav">
+        <a href="about.html#about" class="header-word__nav">About</a>
+      </div>
+      <div class="header-nav">
+        <a href="contacts.html#contacts" class="header-word__nav">Contacts</a>
+      </div>
+  
+            <!-- DROPDAWN BOOTSTRAP -->
+  
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle header-dropdawn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="skin.html">KYLIE SKIN</a>
+          <a class="dropdown-item" href="eye.html">KYLIE EYE SHADOW</a>
+          <a class="dropdown-item" href="contour.html">KYLIE HIGHLIGHTERS</a>
+          <a class="dropdown-item" href="lips.html">KYLIE LIPS</a>
+        </div>
+      </div>
+     
+      <div class="menu">
+        <a href="#okno" class="menu_word">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+        <div id="okno">
+        <div class="menu_texst">
+            <a href="#" class="header-word__nav">Home</a>
+            <a href="about.html#about" class="header-word__nav">About</a>
+            <a href="contacts.html#contacts" class="header-word__nav">Contacts</a>
+        </div>
+        </div>
+     </div>  
+    </header>
+                    <!-- MAIN -->
+
+
+    <main class="main">
+        <div class="main-image-contacts">
+          <div class="main-block-contacts">
+          Customer Service
+        </div>
+        <div class="main-block-contacts">
+          Sign up for email updates from Kylie Jenner and learn more!
+        </div>
+        </div>
+        <img src="./contact_banner.jpg" alt="No image" class="main-image-adaptiv">
+    <div class="main-text-contacts">
+        <div class="main-text_container-1-contacts">
+          Looking for exclusive launch date and restock details? The only place to find them is on Kylie's app! 
+          Download the Kylie Jenner App on iOS and Android today for exclusive updates!
+        </div>
+        <div class="main-text_container-2-contacts">
+          Thank you for visiting Kylie CosmeticsSM by Kylie Jenner For information on our new product launches and the Kylie Lip Kit, please follow us on Instagram, Facebook and Twitter at @KylieCosmetics!
+        </div>
+        <div class="main-text_container-2-contacts">
+          For customer service inquiries, please E-mail us at CustomerService@KylieCosmetics.com. For order inquiries, please include your order number for faster service.
+        </div>
+        <div class="main-text_container-2-contacts" style="font-weight: bold;">
+          Kylie Cosmetics
+          1600 Westar Drive
+          Oxnard, CA 93033
+        </div>
+        
+    </div>
+    </main>
+
+    <footer>
+    <div class="footer-flex">
+        <div class="footer-flex__bold">DON’T MISS OUT!</div>
+        <div >Sign up for email updates from Kylie Jenner</div>
+    </div>
+    <div class="footer-message-flex">
+    <div class="form-group footer-message">
+        <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="footer-submit">
+          Submit
+      </div>
+    </div>
+  
+    </footer>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+        
+    function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+         document.getElementById("button-top").style.display = "block";
+        } else {
+        document.getElementById("button-top").style.display = "none";
+    }
+    }
+        
+        // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+</body>
+</html>
